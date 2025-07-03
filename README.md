@@ -3,7 +3,7 @@
 This is a minimal Bash/Zsh-based terminal quote selector, viewer, and tagger system.  
 It picks random lines from a plain `.txt` file, shows them in a styled terminal box, and lets you tag them with `+` or `-`.
 
-> ⚠️ This is not a religious project; the default example file contains Quranic verses, but you can use any `.txt` file with one item per line.
+> This is not a religious project; the default example file contains Quranic verses, but you can use any `.txt` file with one item per line.
 
 ## Features
 - Shows random untagged lines from a text file in a beautiful styled terminal box
