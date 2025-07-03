@@ -21,7 +21,7 @@ function ayet_kutu_ustalt() {
     local pad_right=$((iç_genişlik - line_len - pad_left))
     local boşluk_sol=$(printf ' %.0s' $(seq 1 $pad_left))
     local boşluk_sağ=$(printf ' %.0s' $(seq 1 $pad_right))
-    print -P "${color2}✶ ${color}${boşluk_sol}${line}${boşluk_sağ} ${color2}✶${reset}"
+    print -P "${color2}╣ ${color}${boşluk_sol}${line}${boşluk_sağ} ${color2}╠${reset}"
   done
 
   print -P "${bold}${color2}╰✧════✧$çizgi┐ ╚═⚛═══❖═╗🜂🜃🜁🜃🜂╔═❖═══⚛═╝ ┌$çizgi✧════✧╯${reset}${unbold}"
