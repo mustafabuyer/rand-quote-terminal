@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i "s|^$(cat ./son_ayet.txt)$|+ $(cat ./son_ayet.txt)|" ./random_quotes.txt
